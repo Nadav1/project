@@ -32,19 +32,24 @@ class NadavProvider:
 
         data = [{
             "name": "nadav",
-            "description": "gandon"
+            "description": "gandon",
+            "date_created": datetime.utcnow()
         }, {
             "name": "nadav1",
-            "description": "gandon1"
+            "description": "gandon1",
+            "date_created": datetime.utcnow()
         }, {
             "name": "nadav2",
-            "description": "gandon2"
+            "description": "gandon2",
+            "date_created": datetime.utcnow()
         }, {
             "name": "nadav3",
-            "description": "gandon3"
+            "description": "gandon3",
+            "date_created": datetime.utcnow()
         }, {
             "name": "nadav4",
-            "description": "gandon4"
+            "description": "gandon4",
+            "date_created": datetime.utcnow()
         }]
 
         for d in data:

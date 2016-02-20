@@ -17,7 +17,7 @@ class ServicesTables():
                           Column("id", Integer, primary_key=True),
                           Column("name", String(255), nullable=False),
                           Column("description", String(255), nullable=False),
-                          Column("date_modified", DateTime(timezone=False), nullable=False,
+                          Column("date_created", DateTime(timezone=False), nullable=False,
                                  default=datetime.utcnow()),
                           mysql_engine="InnoDB")
             table.create(checkfirst=True)
