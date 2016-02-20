@@ -21,11 +21,17 @@ class NadavProvider:
         self._bla = None
 
     def run(self):
+        self._read_html()
         self._insert_mysql_example()
         self._select_mysql_example()
         self._update_mysql_example()
 
         return
+
+    def _read_html(self):
+        r = requests.get('https://www.google.com')
+        r.status_code
+
 
     def _insert_mysql_example(self):
         table_name, table = ServicesTables.ensure_table1_table()

@@ -25,8 +25,10 @@ class Services:
         try:
             start_time = datetime.utcnow()
             logger.info("+ Running services")
+
             provider = NadavProvider()
             provider.run()
+
             logger.info("- Running services, elapsed time:[{0}]".format(datetime.utcnow() - start_time))
         except Exception, e:
             logger.exception(e)
