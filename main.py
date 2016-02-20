@@ -11,6 +11,7 @@ from services.services import Services
 
 
 if __name__ == "__main__":
+    print "haha"
     service = Services("2016-02-20")
     service.run()
 
