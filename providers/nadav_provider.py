@@ -38,7 +38,7 @@ class NadavProvider:
 
         data = [{
             "name": "nadav",
-            "description": "gandon",
+            "description": "gandona",
             "date_created": datetime.utcnow()
         }, {
             "name": "nadav1",
